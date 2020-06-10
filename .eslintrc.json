@@ -5,6 +5,11 @@
       "jsx": true
     }
   },
+  "settings": {
+    "react": {
+      "pragma": "createElement"
+    }
+  },
   "env": {
     "es2020": true,
     "jest": true,
@@ -20,6 +25,7 @@
     "react/jsx-filename-extension": [
       "error",
       { "extensions": [".jsx", ".js"] }
-    ]
+    ],
+    "react/jsx-one-expression-per-line": "off"
   }
 }

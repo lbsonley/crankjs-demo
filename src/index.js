@@ -1,7 +1,8 @@
-import React from "react";
-import ReactDom from "react-dom";
+/** @jsx createElement */
+import { createElement } from "@bikeshaving/crank";
+import { renderer } from "@bikeshaving/crank/dom";
 import App from "./app";
 
 const wrapper = document.querySelector("#app");
 
-ReactDom.render(<App />, wrapper);
+renderer.render(<App />, wrapper);

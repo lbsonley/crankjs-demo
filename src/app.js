@@ -1,16 +1,13 @@
-import React, { useState } from "react";
+/** @jsx createElement */
+import { createElement } from "@bikeshaving/crank";
+import Stateful from "./Components/stateful";
 
 const App = () => {
-  const [counter, setCounter] = useState(0);
-  setTimeout(() => {
-    setCounter(counter + 1);
-  }, 1000);
-
   return (
-    <>
+    <div>
       <h1>Title</h1>
-      <span>{counter}</span>
-    </>
+      <Stateful />
+    </div>
   );
 };
 

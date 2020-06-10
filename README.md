@@ -1,3 +1,3 @@
-# Webpack React Starter
+# CrankJS Demo
 
-**_Because Create React App is too opaque_**
+**_Trying out Shiny New Things_**
